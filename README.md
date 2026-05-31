@@ -13,10 +13,8 @@ A solver for a 7x7 calendar puzzle. Given a month (1-12) and day (1-31), the sol
 
 ```bash
 uv run python calendar_puzzle_solver.py <month> <day>
-```
 
-Example:
-```bash
+# Example
 uv run python calendar_puzzle_solver.py 5 31
 ```
 
@@ -34,4 +32,6 @@ uv run python calendar_puzzle_solver.py 5 31
 | SL | S/L hybrid | Teal |
 | LL | Long L | Silver |
 
-Outputs a PNG visualization of the solution.
+## Example Output
+
+![Example solution for 5/31](solution_05_31.png)
